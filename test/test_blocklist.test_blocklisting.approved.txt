@@ -1,0 +1,7 @@
+Decide whether a customer is restricted
+ according to Blocklist with contents ['email1'] and ['phone1']
+
+0) email1, phone1 => True
+1) email1, another_phone => True
+2) another_email, phone1 => True
+3) another_email, another_phone => False
